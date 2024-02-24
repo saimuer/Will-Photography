@@ -489,6 +489,22 @@ header h2 {
   form .half .item input:focus, form .full textarea:focus, form .action input[type="reset"]:hover, form .icons a:hover{
     background: rgba(255,255,255,0.075);
   }
+
+#date {
+    width: 150px;
+    height: 44px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+}
   
   @media (max-width: 480px){
     form .half{
